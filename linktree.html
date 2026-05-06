@@ -35,8 +35,8 @@
 
         function ChangeStyle() {
             const element = document.getElementById("tombol");
-            element.style.color = "red";
-            element.style.background = "yellow";
+            element.style.color = "white";
+            element.style.background = "black";
         }
 
     </script>
@@ -214,7 +214,14 @@
             margin-top: 16px;
             margin-bottom: 50px;
         }
-        
+
+        /*Button*/
+        .button {
+            width: 570px;
+            height: 70px;
+            margin-bottom: 20px;
+            background-color:#418641;
+        }
     </style>
 </head>
 
@@ -314,9 +321,9 @@
             </div>
         </a>
 
-        <button class="btn btn-primary" onclick="showme()">Showme</button>
-        <button class="btn btn-primary" onclick="ChangeText()">Change Text</button>
-        <button class="btn btn-primary" onclick="ChangeStyle()">Change Style</button>
+        <button class="btn btn-primary button" onclick="showme()">Showme</button>
+        <button class="btn btn-primary button" onclick="ChangeText()">Change Text</button>
+        <button class="btn btn-primary button" onclick="ChangeStyle()">Change Style</button>
 
 
         <!-- Social Media Section -->
